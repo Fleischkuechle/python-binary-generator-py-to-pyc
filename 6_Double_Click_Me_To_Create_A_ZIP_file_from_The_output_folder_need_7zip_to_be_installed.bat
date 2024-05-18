@@ -7,7 +7,8 @@
 rem Add 7-Zip path to the system PATH temporarily
 @REM %ProgramFiles%\7-Zip 
 @REM set path=%ProgramFiles%\7-Zip ;%path%
-set "path=C:\Program Files\7-Zip;%path%"
+@REM set "path=C:\Program Files\7-Zip;%path%"
+set "path=%ProgramFiles%\7-Zip;%path%"
 
 REM this is getting the path where the bat file is.
 cd /D "%~dp0"
