@@ -15,6 +15,22 @@ on
 
 this bat file will check the input folder and copy all files inside this folder
 into the output folder
-then it goes throug that files and generates the .pyc for all existing .py files
+then it goes through that files and generates the .pyc for all existing .py files
 
-when its done it deletes all .py files inside the output folder
+when its done it deletes all .py files inside the output folder.
+
+
+
+here you can see how its meant to be used
+
+Image before process is started
+![alt text](image.png)
+
+
+Image after the process.
+![alt text](image-1.png)
+
+It does it recursive so all files in the subfolder will also be converted.
+![alt text](image-2.png)
+
+
