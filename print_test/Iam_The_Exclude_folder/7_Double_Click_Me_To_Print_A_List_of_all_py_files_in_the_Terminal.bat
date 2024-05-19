@@ -1,15 +1,14 @@
 @echo off
-setlocal enabledelayedexpansion
+
 REM this is getting the path where the bat file is.
 cd /D "%~dp0"
 
 set search_dir=%cd%
 
-for /d "%search_dir%" %%a in (*.py) do (
+for  "%search_dir%" %%a in (*.py) do (
     echo %%~fa
 )
 echo All operations completed successfully.
-endlocal
 pause
 
 
