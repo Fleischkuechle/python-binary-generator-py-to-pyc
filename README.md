@@ -34,3 +34,6 @@ It does it recursive so all files in the subfolder will also be converted.
 ![alt text](image-2.png)
 
 
+added the ability to keep py files by adding the filenames in the text file so the py files will also be in the output folder.
+
+![alt text](image-3.png)
